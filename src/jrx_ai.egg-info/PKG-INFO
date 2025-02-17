@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: jrx-ai
+Version: 0.1.0
+Summary: Python interface for Janus multimodal models
+Author-email: John Codes <efexzium@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.1
+Requires-Dist: transformers>=4.38.2
+Requires-Dist: Pillow>=10.0.0
+Requires-Dist: numpy>=1.23.0
+Requires-Dist: accelerate>=0.27.2
