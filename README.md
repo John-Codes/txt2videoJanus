@@ -5,7 +5,7 @@ Effortlessly integrate Janus 7B Pro, a state-of-the-art multimodal AI model, wit
 ## Installation
 
 ```bash
-pip install jrx-ai==0.1.0
+pip install jrx-ai==0.1.1
 ```
 ### Python version
 ```bash
@@ -17,9 +17,16 @@ pip install jrx-ai==0.1.0
 # test_imports.py
 from JRX import JRX
 from JRX.janus.models import MultiModalityCausalLM
+from PIL import Image
+import PIL.Image
+
 
 model = JRX()
 print(model.inference("Test"))
+# test and show me the image generated
+images = model.txt2img(prompt="Create a hacker-inspired, solana, bitcoin, crypto-military themed abstract art background with a futuristic, edgy vibe, incorporating digital elements, binary code, and geometric patterns, fully vector-compatible for high-quality scaling.")
+for img in images:
+    PIL.Image.fromarray(img).show()
 ```
 
 Experience the future of AI with Janus 7B Pro today!
