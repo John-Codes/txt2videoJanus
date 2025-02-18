@@ -42,4 +42,5 @@ These recommendations are based on typical transformer architecture requirements
 For production environments, consider adding 20-30% overhead to recommended amounts. Always test with your specific use case, as actual requirements may vary.
 
 ### Note
+Runs well on Nvidia RTX 4090
 These recommendations are based on industry standards for transformer models of similar sizes. For precise requirements, consult the official documentation or contact the model developers directly.
