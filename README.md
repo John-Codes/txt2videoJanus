@@ -8,8 +8,9 @@ Effortlessly integrate Janus 7B Pro, a state-of-the-art multimodal AI model, wit
 pip install jrx-ai==0.1.0
 ```
 ### Python version
+```bash
 3.13.2
-
+```
 ## Usage
 
 ```python
